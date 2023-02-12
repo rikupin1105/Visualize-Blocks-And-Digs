@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/total.unity
-    guid: cfc3e4f505afdd54ca49651ca1a4947d
+    path: Assets/VisualizeBlocksAndDigs.unity
+    guid: 25461822f0cb18c438a5e76113d7ea9f
   m_configObjects: {}
