@@ -50,22 +50,24 @@ public class Voronoi : MonoBehaviour
     }
     Color GetColor(int i)
     {
+        Color.HSVToRGB(0.8f, 1f, 1f);
+
         switch (i)
         {
             case 1:
-                return new Color(0.8f, 0.3f, 0.8f);
+                return Color.HSVToRGB(0.8f, 0.5f, 1f);
             case 2:
-                return new Color(0.7f, 0.4f, 0.3f);
+                return Color.HSVToRGB(0.7f, 0.5f, 1f);
             case 3:
-                return new Color(0.6f, 0.5f, 0.7f);
+                return Color.HSVToRGB(0.5f, 0.5f, 1f);
             case 4:
-                return new Color(0.5f, 0.6f, 0.4f);
+                return Color.HSVToRGB(0.3f, 0.5f, 1f);
             case 5:
-                return new Color(0.4f, 0.7f, 0.6f);
+                return Color.HSVToRGB(0.1f, 0.5f, 1f);
             case 6:
-                return new Color(0.3f, 0.8f, 0.5f);
+                return Color.HSVToRGB(0.0f, 0.5f, 1f);
             default:
-                return new Color(0f, 0f, 0f);
+                return Color.HSVToRGB(0.2f, 0.5f, 1f);
         }
     }
 
