@@ -74,10 +74,6 @@ public class createMesh : MonoBehaviour
         mesh.triangles = trinangles;
         mesh.RecalculateNormals();
     }
-    public void DestroyCommand()
-    {
-        Destroy(this.gameObject);
-    }
     
     public double ToRadian(double deg)
     {
